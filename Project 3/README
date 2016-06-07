@@ -1,0 +1,36 @@
+Name: Jahan Kuruvilla Cherian
+UID: 104436427
+Email: jcherian@ucla.edu
+Class: CS 174A
+TA: Garett Ridge
+Prof: Diana Ford
+File: Project 3 README
+
+The code called raytrace.cpp can be compiled using the following command:
+g++ -o raytrace raytrace.cpp
+
+Or can be compiled by importing raytrace.cpp, vecm.h and matm.h into an IDE such as
+Xcode or Visual Studios.
+
+The code can be run on a UNIX Command Line as follows:
+./raytrace <input_file>.txt
+
+The code produces all correct results, with the output ppm files looking identical to the
+ones provided in the test results. The table below summarizes the test cases the visually
+look the same.
+
+Tests Passed:
+testAmbient
+testBackground
+testBehind
+testDiffuse
+testIllum
+testIntersection
+testParsing
+testReflection
+testSample
+testShadow
+testSpecular
+
+Tests Failed:
+N/A

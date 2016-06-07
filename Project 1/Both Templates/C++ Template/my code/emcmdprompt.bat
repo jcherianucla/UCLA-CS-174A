@@ -1,0 +1,1 @@
+@cmd /k emsdk_env.bat
